@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/css.css"  />
+<link rel="stylesheet" type="text/css" href="css/jq.css"  />
+<title>Jungle Timer</title>
+<script src="http://code.jquery.com/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script src="js/cd.js" type="text/javascript"></script>
+<script src="js/jui.js" type="text/javascript"></script>
+<script src="js/j.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="main">
+
+	<div class="timer_keeper blue" time="300">
+    	<h1 class="blue">Own Blue</h1>
+    	<div class="timer">0:00</div>
+        <audio src="sounds/ob.wav" preload="preload" id="ob"></audio>
+    </div>
+    <div class="timer_keeper red" time="300">
+    	<h1 class="red">Own Red</h1>
+    	<div class="timer">0:00</div>
+        <audio src="sounds/or.wav" preload="preload" id="or"></audio>
+    </div>
+    <div class="smite">
+    	<h1 class="smite">Smite Damage</h1>
+    	<table cellpadding="0" cellspacing="0">
+        	<tr><td>1</td><td>445</td></tr>
+            <tr><td>2</td><td>470</td></tr>
+            <tr><td>3</td><td>495</td></tr>
+            <tr><td>4</td><td>520</td></tr>
+            <tr><td>5</td><td>545</td></tr>
+            <tr><td>6</td><td>570</td></tr>
+            <tr><td>7</td><td>595</td></tr>
+            <tr><td>8</td><td>620</td></tr>
+            <tr><td>9</td><td>645</td></tr>
+            <tr><td>10</td><td>670</td></tr>
+            <tr><td>11</td><td>695</td></tr>
+            <tr><td>12</td><td>720</td></tr>
+            <tr><td>13</td><td>745</td></tr>
+            <tr><td>14</td><td>770</td></tr>
+            <tr><td>15</td><td>795</td></tr>
+            <tr><td>16</td><td>820</td></tr>
+            <tr><td>17</td><td>845</td></tr>
+            <tr><td>18</td><td>870</td></tr>
+        </table>
+    </div>
+    <div class="timer_keeper blue" time="300">
+    	<h1 class="blue">Enemy Blue</h1>
+    	<div class="timer">0:00</div>
+        <audio src="sounds/eb.wav" preload="preload" id="eb"></audio>
+    </div>
+     <div class="timer_keeper red" time="300">
+    	<h1 class="red">Enemy Red</h1>
+    	<div class="timer">0:00</div>
+        <audio src="sounds/er.wav" preload="preload" id="er"></audio>
+    </div>
+     <div class="timer_keeper dragon" time="360">
+    	<h1 class="dragon">Dragon</h1>
+    	<div class="timer">0:00</div>
+        <audio src="sounds/d.wav" preload="preload" id="d"></audio>
+    </div>
+     <div class="timer_keeper baron" time="420">
+    	<h1 class="baron">Baron</h1>
+    	<div class="timer">0:00</div>
+        <audio src="sounds/b.wav" preload="preload" id="b"></audio>
+    </div>
+    <div class="timer_keeper ward" time="180">
+    	<h1 class="ward">Dragon Ward</h1>
+    	<div class="timer">0:00</div>
+    </div>
+     <div class="timer_keeper ward" time="180">
+    	<h1 class="ward">Baron Ward</h1>
+    	<div class="timer">0:00</div>
+        
+    </div>
+     <div class="timer_keeper tp" time="300">
+    	<h1 class="tp">Enemy Teleport</h1>
+    	<div class="timer">0:00</div>
+    </div>
+<div id="explanation"><input type="checkbox" id="enablesounds" value="1" style="vertical-align:middle; margin-right:3px;" checked="checked" />Enable Sounds<br />This is a simple League of Legends Jungle Timer specifically designed for dual monitor setup. A <strong>click</strong> starts a timer. A <strong>doubleclick</strong> resets it. You can highlight the Smite rows by a <strong>click</strong>.<br /><span style="color:#ca210f;">For the love of god use this with Firefox or Chrome</span></div>
+<div style="display:none;">
+	
+</div>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://87.98.241.216/froxlor/tokri/piwik/" : "http://87.98.241.216/froxlor/tokri/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 7);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://87.98.241.216/froxlor/tokri/piwik/piwik.php?idsite=7" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</body>
+</html>
