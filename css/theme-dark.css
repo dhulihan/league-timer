@@ -2,6 +2,13 @@ html{
 	background-color:#444;
 }
 
+a:visited, a:link {
+    color: #aaa;
+}
+a:hover {
+	color: #ccc;
+}
+
 #main{
     color:#eee;
 }

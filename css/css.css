@@ -2,12 +2,15 @@
 
 html{
 	background-color:#fefefe;
-	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 body{
 	
 }
+
+
+
 #main{
 	margin: 0 auto;
     width: 936px;
@@ -43,7 +46,6 @@ h1.baron{color:#5c1038;}
 h1.ward{color:#3b8612;}
 h1.tp{color:#79438b;}
 h1.flash{color:#e1dd4a;}
-
 h1.smite{color: #7127a3; margin-bottom:5px; }
 
 .timer{font-weight:bold; font-size:111px; text-shadow:0px 4px 10px #000;}
@@ -52,7 +54,7 @@ div.smite {
 }
 #explanation{
 	font-size:11px;
-	color:#333;
+	color:#aaa;
 	text-align: right;
 }
 
@@ -66,7 +68,7 @@ table tr td{
     width: 50%;
 	border-bottom: 1px solid #000}
 }
-div.smite tr.active{background-color:#A59BAA; color:#000;}
+div.smite tr.active{background-color:#A59BAA !important; color:#000;}
 div.smite tr.hover{background-color:#333;}
 
 div.timer.up{color:#090;}
