@@ -2,7 +2,7 @@
  
 A set of timers for League of Legends. It is best run on a multi-monitor setup, with the timers page displayed in your web browser on your second monitor.
 
-[Load Webpage](http://dhulihan.github.io/league-timer)
+[Run Timer](http://dhulihan.github.io/league-timer)
 
 ## Credits
 
