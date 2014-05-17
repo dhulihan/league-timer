@@ -50,7 +50,7 @@ h1.smite{color: #7127a3; margin-bottom:5px; }
 
 .timer{font-weight:bold; font-size:111px; text-shadow:0px 4px 10px #000;}
 div.smite {
-    height:624px; float:right; color: #eee; background-image:url("../img/smite.png");
+    height:624px; float:right;  background-image:url("../img/smite.png");
 }
 #explanation{
 	font-size:11px;
@@ -58,17 +58,18 @@ div.smite {
 	text-align: right;
 }
 
-table{font-size: 19px;
-    width: 100%;}
+table {
+    font-size: 19px;
+    width: 100%;
+}
 table tr{cursor:pointer;}
 table tr td{
-
     margin: 0;
     padding: 3px;
     width: 50%;
 	border-bottom: 1px solid #000}
 }
-div.smite tr.active{background-color:#A59BAA !important; color:#000;}
+div.smite tr.active{background-color:#A59BAA; color:#000;}
 div.smite tr.hover{background-color:#333;}
 
 div.timer.up{color:#090;}
